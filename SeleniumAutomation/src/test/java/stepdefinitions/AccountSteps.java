@@ -63,7 +63,7 @@ public class AccountSteps {
     public void user_creates_a_new_account_with_valid_details() throws InterruptedException {
         accountPage = new AccountPage(driver);
         accountPage.goToCreateAccount();
-        accountPage.fillAccountDetails("swathika", "Kanagamani", "swathikasri62@gmail.com", "Swathika@123");
+        accountPage.fillAccountDetails("Swathika", "Pradeep", "swathikasri15@gmail.com", "Swathika@456");
     }
 
     @And("user logs into the application")
